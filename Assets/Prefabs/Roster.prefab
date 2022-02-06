@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8213593613256673881
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8213593613256673863}
+  - component: {fileID: 8213593613256673880}
+  m_Layer: 0
+  m_Name: Roster
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8213593613256673863
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8213593613256673881}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.1196575, y: -0.2532613, z: -180.2086}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8213593613256673880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8213593613256673881}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b17f8a18620d8274faa965df617661f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rosterSize: 14
+  roster: []
+  wrestlerBase: {fileID: 3720127642841026863, guid: 45a630c5b787b024c8f3d30d2b71d0e8, type: 3}
+  randomiseRoster: 1
+  firstNames:
+  - BILL
+  - MARK
+  - JEAN
+  - RICK
+  - WILSON
+  - COWBOY
+  - Mr.
+  - DOCTOR
+  - FINBAR
+  - SUPER STRONG
+  - PAUL
+  - JAMIE
+  - HIROSHI
+  - PAT
+  - DALLAS
+  - LORD
+  - GRIZZLY
+  - CAIN
+  - RANDY
+  - BUCK
+  - REG
+  - FRED
+  - EL HIJO DOS
+  - BLAZING
+  - KENTA
+  - COLONEL
+  - THE
+  - LEX
+  lastNames:
+  - SCOTT
+  - WATTS
+  - JACKSON
+  - CARTER
+  - WILSON
+  - MACHINE
+  - AMERICA
+  - WALSH
+  - DADDY
+  - DIAMOND
+  - GAMBLE
+  - BARTON
+  - TANAKA
+  - MOSES
+  - RIPLEY
+  - ARMSTRONG
+  - LOU
+  - JUDGE
+  - BRUISER
+  - MADMAN
+  - STING
+  - ROCK
+  - PANTHER
+  - "DRAG\xD3N"
+  - SOL ROJO
+  heads:
+  - {fileID: 21300000, guid: 0c64e015e616e1746aabd97c721ec9f0, type: 3}
+  - {fileID: 21300000, guid: 1040be92329ed9a41942d98998c8169b, type: 3}
+  - {fileID: 21300000, guid: cf2f605e815088c479156c6c6a4d6b83, type: 3}
+  - {fileID: 21300000, guid: 065ec28a6095c5b419083fca491fc944, type: 3}
+  - {fileID: 21300000, guid: db48d510d86f2384683e56ab2ef73d19, type: 3}
+  - {fileID: 21300000, guid: 75d7630f7ef7ef64f92660a3de10c5a2, type: 3}
